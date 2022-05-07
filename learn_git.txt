@@ -1,15 +1,21 @@
-import numpy as npg
-# kiểm tra có sư thay đổi nào không 
-git status
-#
 
-#
+    git status         : kiểm tra có sư thay đổi nào không 
+   
+    git add [file name] : add file vào trạng thái  staging area trước khi commit
+    
+    Git log            : theo dõi các commit gần nhất 
 
-#
+    khi bắt đầu ta sẽ có branch chính là main 
+    git checkout -b [name_branch]    tạo branch mới và switch sang branch mới để làm việc
+                                      tạo ra branch riêng ,các commit chỉ thực hiện trên branch này thôi 
+                                      \làm xong rồi gộp các branch lại để hoàn thành
+    git checkout [name_branch_avalid] switch sang branch đã có vd : main
+    git merge [name branch muốn gộp các commit] đang làm việc ở branch main
+    git restore --staged [file name] : trả thư mục về lại trạng thái làm việc sau khi đã cho file vào trạng thái staging area (git add .) 
 
-#
 
-#
 
-#
+
+
+
 

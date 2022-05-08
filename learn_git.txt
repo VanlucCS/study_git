@@ -6,7 +6,7 @@
     Git log            : theo dõi các commit gần nhất 
 
     khi bắt đầu ta sẽ có branch chính là main 
-    git checkout -b [name_branch]    tạo branch mới và switch sang branch mới để làm việc
+    git checkout -b [name_branch] : tạo branch mới và switch sang branch mới để làm việc
                                       tạo ra branch riêng ,các commit chỉ thực hiện trên branch này thôi 
                                       \làm xong rồi gộp các branch lại để hoàn thành
     git checkout [name_branch_avalid] switch sang branch đã có vd : main
